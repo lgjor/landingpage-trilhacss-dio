@@ -1,0 +1,49 @@
+#course-content {
+    margin: 100px auto;
+    width: 800px;
+    text-align: center;
+}
+
+#course-content h2 {
+    color: var(--text-color-secondary);
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-md);
+    text-transform: uppercase;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    margin-bottom: 24px;
+}
+
+#course-content p {
+    margin-top: 1rem; /* Padrão de parágrafo */
+    margin-bottom: 1rem;   /* Padrão de parágrafo */
+    font-size: var(--fs-base);
+    font-weight: var(--fw-base);
+    line-height: 1.3rem;
+}
+
+.modules-list {
+     display: flex; /* Mude para flex para usar 'gap' e controlar o layout dos módulos */
+    flex-direction: column; /* Para empilhar os módulos verticalmente */
+    margin: 24px auto; /* Centralize o modules-list se ele tiver largura menor 
+    que o pai */
+    gap: 24px;
+}
+
+.modules-list .module {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;   
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    width: 530px;
+}   
+
+.modules-list .module span {
+    color: var(--text-color-secondary);
+}
