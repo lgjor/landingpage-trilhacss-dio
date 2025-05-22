@@ -19,7 +19,7 @@ O objetivo deste desafio foi construir uma Landing Page responsiva e estilizada,
 
 ## Estrutura do Projeto
 
-```
+```code
 landingpage-trilhacss-dio/
 ├── assets/
 │   └── images/
@@ -36,6 +36,7 @@ landingpage-trilhacss-dio/
 │   └── sections.css
 ├── index.html
 └── readme.md
+```
 
 ## Protótipo
 
