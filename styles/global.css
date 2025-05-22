@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit; /* reset de fonte */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --bg-color: #000000;
+    --surface-color: #31A8DD;
+    --stroke-color: #33A8DB80;
+    --text-color-primary: #FFFFFF;
+    --text-color-secondary: #33A8DB;
+
+    --ff-sans: "Raleway", sans-serif;
+
+    --fs-base: 1rem; /*16*/
+    --fs-lg: 1.25rem; /*20*/
+    --fs-xl: 2rem; /*32*/
+    --fs-2xl: 2.5rem; /*40*/
+
+    --fw-base: 400;
+    --fw-md: 700;
+    --fw-bold: 900;
+}
+
+html {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base);
+    line-height: 1.6;
+    color: var(--text-color-primary);
+}
+
+body {
+    max-width: 1440px;
+    margin: auto;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    background-color: black;
+}
