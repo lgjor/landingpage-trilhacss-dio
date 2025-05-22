@@ -51,7 +51,7 @@ Você pode acessar o protótipo do desafio no [Figma](https://www.figma.com/file
 
 ## Resultado
 
-Confira o resultado final da Landing Page criada a partir deste desafio!
+Confira o resultado final da Landing Page criada a partir deste desafio: [https://lgjor.github.io/landingpage-trilhacss-dio/](https://lgjor.github.io/landingpage-trilhacss-dio/)
 
 ---
 
