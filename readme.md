@@ -1,6 +1,8 @@
 # Desafio: Landing Page com HTML e CSS
 
-Desafio da Trilha de CSS da DIO! Neste projeto, desenvolvi uma Landing Page utilizando HTML e CSS, colocando em prática os fundamentos do CSS, propriedades básicas da linguagem de estilização, além de trabalhar com unidades de medidas relativas e absolutas.
+Neste projeto, desenvolvi uma Landing Page utilizando HTML e CSS, colocando em prática os fundamentos do CSS, propriedades básicas da linguagem de estilização, além de trabalhar com unidades de medidas relativas e absolutas.
+
+Confira o resultado: [https://lgjor.github.io/landingpage-trilhacss-dio/](https://lgjor.github.io/landingpage-trilhacss-dio/)
 
 ## Sobre o Projeto
 
