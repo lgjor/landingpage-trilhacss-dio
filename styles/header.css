@@ -94,7 +94,8 @@ header {
             background-clip: text;
             /* Navegadores baseados em WebKit */
             -webkit-text-fill-color: transparent; 
-              color: transparent; /* Fallback para navegadores que não suportam text-fill-color */
+            /* Fallback para navegadores que não suportam text-fill-color */  
+            color: transparent;
         }
 }
 
