@@ -1,0 +1,22 @@
+footer {
+    margin: 0;
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid --var(--stroke-color);
+    border-top-color: rgba(51, 168, 219, 0.5);
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+footer a {
+    color: var(--text-color-secondary);
+    text-decoration: none;
+    font-weight: var(--fw-md);
+}
+
+footer a:hover {
+    color: var(--text-color-primary);
+}
+    
+    

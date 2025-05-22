@@ -97,6 +97,30 @@ header {
             /* Fallback para navegadores que não suportam text-fill-color */  
             color: transparent;
         }
+        button:hover {
+        /* Preencher o fundo com o gradiente */
+        cursor: pointer;
+        background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+        -webkit-background-clip: border-box; /* Reverte o clip para o fundo preencher o botão */
+        background-clip: border-box;
+        -webkit-text-fill-color: var(--text-color-primary); /* Muda a cor do texto para branco */
+        color: var(--text-color-primary); /* Fallback */
+
+        /* Remover a borda para que o gradiente preencha sem borda extra */
+        border: 3px solid transparent; /* Manter a mesma largura para evitar "saltos" */
+        border-image: none; /* Desativa a imagem da borda */
+        box-shadow: 0 0 15px rgba(51, 168, 219, 0.6); /* Efeito de brilho azul */
+
+        /* Efeito de leve elevação ou escala */
+        transform: translateY(-3px); /* Move o botão ligeiramente para cima */
+        /* transform: scale(1.02); */ /* Outra opção: aumenta ligeiramente o tamanho */
+    }
+
+    button:active {
+        transform: translateY(0); /* Volta à posição original ao clicar */
+        /* transform: scale(0.98); */ /* Ou um pequeno encolhimento ao clicar */
+        box-shadow: none; /* Remove o brilho ao clicar */
+    }
 }
 
 
